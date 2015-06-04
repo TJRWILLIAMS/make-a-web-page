@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>My page so far</title>
+  </head>
+
+  <body>
+  <div class="MyPage">
+      <div class="Stage">
+        <div class="StageTitle"> Contents </div>
+        <div class="SectionContents">
+          <ol type="1">
+            <li> <a href = "#Stage0"> Stage 0</a>
+              <ol type="1">
+                <li> <a href = "#HTML"> HTML</a> </li>
+                <li> <a href = "#Tags"> Tags</a> </li>
+                <li> <a href = "#InlinevsBlock"> Inline vs Block</a> </li>
+              </ol>
+            </li>
+            <li> <a href = "#Stage1.1"> Stage 1.1</a>
+              <ol type="1">
+                <li> <a href = "#HTMLCSSDOM"> HTML, CSS and the DOM</a> </li>
+                <li> <a href = "#DeveloperConsole"> The Developer Console and Boxes</a> </li>
+              </ol>
+            </li>
+            <li> <a href = "#Stage1.2"> Stage 1.2</a>
+              <ol type="1">
+                <li> <a href = "#CleanCode"> Cleaning up your code</a> </li>
+                <li> <a href = "#FormattingPage"> How to go about formatting your page</a> </li> 
+              </ol>
+            </li>
+          </ol>
+        </div>
+      </div>
+
+
+
+      <div class="Stage">
+        <div class="StageTitle">
+          Stage 0 <a name="Stage0"> </a>  </div>
+
+
+        <div class="SectionTitle">
+          HTML <a name="HTML"> </a> </div>
+        <div class="SectionContents">
+            <p>
+              HTML is hyper text markup language, and is the basic language of documents on the web. </p>
+            <p>  
+              It is made up of text content (what is actually displayed), markup (the formatting), references to other documents (images, videos etc), and (hyper)links to other pages on the internet.</p>
+            <p>
+              <a href = "https://youtu.be/5Kjx-NOwcSc"> This Video</a> explains HTML.</p>
+
+        </div>
+
+        <div class="SectionTitle">
+          Tags <a name="Tags"></a></div>
+        <div class="SectionContents">
+            <p> 
+                There are a number of different tags, that perform different functions on the HTML. </p>
+            <p>
+                For instance, the b tag makes text bold, the em tag makes it italic.</p>
+            <p>
+                Tags can also be used to add images or links, and can be seen in the videos below: </p>
+            <p> <a href = "https://youtu.be/-0S9lBFHeo0" > Links</a> </p>
+            <p> <a href = "https://youtu.be/Le8i8TtDleU" > Videos </a> </p>
+            
+        </div>
+        <div class="SectionTitle">
+          Inline vs Block <a name="InclinevsBlock"></a> </div>
+        <div class="SectionContents">
+          <p> 
+            Tags, and elements more generally (the complete unit made up of two tags and their contents), can either be inline or block. The distinction is relatively simple, with inline elements such as b, img etc. taking their place "in the line" of the text, whereas block elements take the place of a separate block on the page. </p>
+            
+          <p> <a href="https://youtu.be/bOh9WjucNsA" > This video </a> does a good job of explaining the distinction. </p>
+        </div>
+      </div>
+
+<!-- End of stage 0 -->
+      <div class="Stage">
+        <div class="StageTitle"> Stage 1.1 <a name="Stage1.1"></a> </div>
+        <div class="SectionTitle"> HMTL, CSS and the DOM <a name="HTMLCSSDOM"></a> </div>
+        <div class="SectionContents"> 
+          <p> HMTL is the language used to classify and define the structure of  a web page. It allows you to determine the types of element and their contents. </p>
+          <p> CSS is the language used to set the style of the page - the formatting, font etc. CSS provides additional information on top of your HTML, and is useful to avoid too much unnecesary duplication in your code. </p>
+          <p> The Document Object Model (DOM) is a standard protocol for interpreting the elements in HTML. </p>
+          <p> <a href="https://youtu.be/tSv2KIF7uE4" > This video </a> does a good job of explaining the three. </p>
+        </div>
+        <div class="SectionTitle"> The developer console and boxes <a name="DeveloperConsole"></a></div>
+        <div class="SectionContents"> 
+          <p> The developer console is a useful tool in google chrome (and similar tools are available in other web browsers) that allows you to see the individual elements and the raw HTML code behind the page you're viewing. </p>
+          <p> You can also see the styles, the log of requests in the browser and other details of your browser's activity. </p>
+          <p> Through the developer console, it should be apparent that every object on a we page is contained within a rectangular box. This is crucial for web formatting and front end development. </p>
+          <p> Boxes are created using div tags, with each div tag layer representing a box. </p>
+          <p> <a href="https://youtu.be/JsH_eSZGhyg" > This video </a> does a good job of explaining how divs work. </p>
+        </div>
+      </div>
+<!-- End of stage 1.1 -->
+      <div class="Stage">
+        <div class="StageTitle"> Stage 1.2 <a name="Stage1.2"></a> </div>
+        <div class="SectionTitle"> Cleaning up the code <a name="CleanCode"></a></div>
+        <div class="SectionContents"> 
+          <p> Using classes allows us to set formatting to specific elements on our page, and saves us from repeatedly typing out the same formatting for similar elements </p>
+          <p> CSS works in something like the reverse of the legal system - it works from the most precise rule (the lowest child element) up to the most general rule (that would likely apply to the whole page).  </p>
+          <p> <a href="https://youtu.be/oaitg9nRqvc" > This video </a> does a good job of explaining the three. </p>
+        </div>
+        <div class="SectionTitle"> How to go about formatting your page <a name="FormattingPage"></a></div>
+        <div class="SectionContents"> 
+          <p> Trial and error appears to be the most effective way of formatting, especially when working towards a set design. You follow a simple process of formatting, testing and re-tweaking until the result is what would be desired. </p>
+          <p> The sheer bulk of information available for CSS means that it is not advisable to try and learn all the attributes that one might want to try and use, so instead using the documentation is highly recommended - such as the link below. </p>
+          <p> <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference" > CSS Documentation </a> </p>
+          <p> The most important thing when coding appears to be maintaining a proper and regular structure so as to make debugging and error checking more straightfoward. Furthermore, this will likely make it easier for other programmers to read and understand your work. Hence the need for logical class names, grouping similar information together and so forth.</p>
+        </div>
+      </div>
+      <!-- End of stage 1.2 -->
+    </div>
+    </body>
+  </html>
+
